@@ -1,1 +1,1 @@
-# Mean_NDVI_app
+# Mean_NDVI_app_Google_Earth_Engine
