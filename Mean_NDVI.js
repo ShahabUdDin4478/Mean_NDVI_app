@@ -40,7 +40,7 @@ Map.onClick(function(coords) {
   var sampledPoint = temporalMean.reduceRegion(ee.Reducer.mean(), point, 30);
   var computedValue = sampledPoint.get('nd_mean');
 
-  // Request the value from the server and use the results in a function.
+  /// Request the value from the server and use the results in a function.
   computedValue.evaluate(function(result) {
     inspector.clear();
 
